@@ -16,7 +16,7 @@ satırından sonra başlar.
 
 # İngilizce Hayvan İsimleri ve Okunuşları
 
-Hayvanlar, çocukların en sevdiği İngilizce konularından biridir. Hem ilgilerini çeker hem de taklit ve oyunla kolayca öğretilir. Aşağıda en sık kullanılan hayvan isimlerini gruplara ayırdık. Parantez içindeki okunuşlar yaklaşık Türkçe karşılıklardır.
+Hayvanlar, çocukların en sevdiği İngilizce konularından biridir. Hem ilgilerini çeker hem de taklit ve oyunla kolayca öğretilir. Aşağıda en sık kullanılan hayvan isimlerini gruplara ayırdık. Tablodaki okunuşlar yaklaşık Türkçe karşılıklardır.
 
 ## Evcil hayvanlar
 

@@ -66,7 +66,7 @@ Bu adımları uygularken elinizin altında hazır dersler olsun isterseniz **Dos
 
 # Çocuklar İçin İlk 50 İngilizce Kelime
 
-İngilizceye yeni başlayan bir çocuk için en doğru ilk adım, her gün gördüğü şeylerin adını öğrenmektir. Aşağıdaki 50 kelime günlük hayatta en sık karşılaşılan kelimelerden seçildi ve konulara ayrıldı. Parantez içindeki okunuşlar yaklaşık Türkçe okunuşlardır. Doğru telaffuz için kelimeyi sesli bir kaynaktan dinletmek her zaman daha iyidir.
+İngilizceye yeni başlayan bir çocuk için en doğru ilk adım, her gün gördüğü şeylerin adını öğrenmektir. Aşağıdaki 50 kelime günlük hayatta en sık karşılaşılan kelimelerden seçildi ve konulara ayrıldı. Tablodaki okunuşlar yaklaşık Türkçe okunuşlardır. Doğru telaffuz için kelimeyi sesli bir kaynaktan dinletmek her zaman daha iyidir.
 
 ## Aile ve insanlar
 
