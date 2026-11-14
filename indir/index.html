@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Dostum İngilizce'yi indir</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<script>
+/* Gelen kişiyi cihazına göre mağazaya yollar; bilgisayardan geleni ana sayfaya.
+   /indir?k=reels gibi bir ek verilirse Play bağlantısındaki kampanya adı o olur. */
+(function(){
+  var play='https://play.google.com/store/apps/details?id=com.dostum.ingilizce';
+  var appstore='https://apps.apple.com/tr/app/id6828153724';
+  var u=navigator.userAgent||'';
+  var android=/Android/i.test(u);
+  var ios=/iPhone|iPad|iPod/i.test(u)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var k=(/[?&]k=([A-Za-z0-9_-]{1,40})/.exec(location.search)||[])[1]||'indir';
+  var hedef=android?play+'&utm_source=dostumingilizce.com&utm_campaign='+k:ios?appstore:'/';
+  var ad=android?'indir-android':ios?'indir-ios':'indir-bilgisayar';
+  /* Ziyaretçi sayacına (GoatCounter) olay olarak yaz; başarısız olsa da yönlendirme sürer. */
+  if(location.hostname==='www.dostumingilizce.com')try{
+    var say='https://dostumingilizce.goatcounter.com/count?p='+encodeURIComponent(ad)+
+      '&t='+encodeURIComponent('/indir yönlendirmesi ('+k+')')+'&e=true'+
+      '&r='+encodeURIComponent(document.referrer)+'&rnd='+Math.random().toString(36).slice(2,7);
+    if(navigator.sendBeacon)navigator.sendBeacon(say);else(new Image()).src=say;
+  }catch(e){}
+  location.replace(hedef);
+})();
+</script>
+<style>
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1f1633;text-align:center;padding:60px 20px}
+a{display:block;max-width:320px;margin:12px auto;padding:14px;border-radius:14px;background:#111;color:#fff;text-decoration:none;font-weight:700}
+</style>
+</head>
+<body>
+<p>Mağazaya yönlendiriliyorsunuz…</p>
+<noscript>
+<a href="https://play.google.com/store/apps/details?id=com.dostum.ingilizce&amp;utm_source=dostumingilizce.com&amp;utm_campaign=indir">Google Play</a>
+<a href="https://apps.apple.com/tr/app/id6828153724">App Store</a>
+<a href="/" style="background:#7c3aed">Ana sayfa</a>
+</noscript>
+</body>
+</html>
