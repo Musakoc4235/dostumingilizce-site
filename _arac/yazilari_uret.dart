@@ -159,18 +159,7 @@ String dugmeler(String olay, String olayBasligi, String kampanya) => '''
     $appleSvg
     <span><small>Şimdi indirin</small><b>App Store</b></span>
   </a>
-</div>
-<script>
-/* Telefonda yalnızca o cihazın mağazasını göster; bilgisayarda ikisi de kalır. */
-(function(){
-  var u=navigator.userAgent||'';
-  var android=/Android/i.test(u);
-  var ios=/iPhone|iPad|iPod/i.test(u)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
-  if(!android&&!ios)return;
-  var gizle=document.querySelectorAll(android?'.magaza.ios':'.magaza.android');
-  for(var i=0;i<gizle.length;i++)gizle[i].style.display='none';
-})();
-</script>''';
+</div>''';
 
 String bas(
         {required String baslik,
